@@ -34,7 +34,6 @@ const BlogsPage = ({ loaderData }: Route.ComponentProps) => {
   const [filterPost, getFilterPost] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const { fetchPosts } = loaderData;
-  console.log(fetchPosts);
   const getPosts = 
     // My initial algo for filtering posts (for future reference)
     // if(filterPost === ''){
